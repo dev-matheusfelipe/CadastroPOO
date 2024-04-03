@@ -446,20 +446,20 @@ Os resultados obtidos ao executar os códigos foram os seguintes:
 
 ## Análise e Conclusão
   **Vantagens e Desvantagens do Uso de Herança**
-     - Vantagens:
-        * Reutilização de Código: A herança permite que uma classe herde atributos e métodos de outra classe, evitando duplicação de implementações semelhantes.
-        * Polimorfismo: Classes derivadas podem ser tratadas como objetos da classe base, facilitando a criação de código flexível e genérico.
-        * Organização Hierárquica: A herança ajuda a organizar classes em uma hierarquia, refletindo relações do mundo real.
-    - Desvantagens:
-        * Acoplamento Forte: Mudanças na classe base afetam todas as classes derivadas, criando um acoplamento forte.
-        * Herança Múltipla Complexa: Em linguagens que suportam herança múltipla, conflitos podem surgir quando uma classe herda de várias classes.
-        * Quebra de Encapsulamento: Herdar membros privados pode expor detalhes internos da classe base.
-  **Necessidade da Interface Serializable em Persistência em Arquivos Binários**
-      A interface Serializable é essencial para permitir que objetos sejam convertidos em bytes e salvos em arquivos binários. Isso é fundamental para a persistência de dados.
-  **Uso do Paradigma Funcional pela API Stream no Java**
-      A API Stream utiliza conceitos do paradigma funcional, como operações de mapeamento, filtragem e redução. Isso permite escrever código mais conciso e expressivo, melhorando a legibilidade e a manutenção.
-  **Padrão de Desenvolvimento na Persistência de Dados em Arquivos no Java**
-      No contexto do desenvolvimento Java, o padrão comumente adotado para persistência de dados em arquivos é usar a serialização (como a interface Serializable) ou formatos como JSON ou XML.
+     - **Vantagens:
+        - Reutilização de Código: A herança permite que uma classe herde atributos e métodos de outra classe, evitando duplicação de implementações semelhantes.
+        - Polimorfismo: Classes derivadas podem ser tratadas como objetos da classe base, facilitando a criação de código flexível e genérico.
+        - Organização Hierárquica: A herança ajuda a organizar classes em uma hierarquia, refletindo relações do mundo real.
+    - **Desvantagens:
+        - Acoplamento Forte: Mudanças na classe base afetam todas as classes derivadas, criando um acoplamento forte.
+        - Herança Múltipla Complexa: Em linguagens que suportam herança múltipla, conflitos podem surgir quando uma classe herda de várias classes.
+        - Quebra de Encapsulamento: Herdar membros privados pode expor detalhes internos da classe base.
+  - **Necessidade da Interface Serializable em Persistência em Arquivos Binários**
+      - A interface Serializable é essencial para permitir que objetos sejam convertidos em bytes e salvos em arquivos binários. Isso é fundamental para a persistência de dados.
+  - **Uso do Paradigma Funcional pela API Stream no Java**
+      - A API Stream utiliza conceitos do paradigma funcional, como operações de mapeamento, filtragem e redução. Isso permite escrever código mais conciso e expressivo, melhorando a legibilidade e a manutenção.
+  - **Padrão de Desenvolvimento na Persistência de Dados em Arquivos no Java**
+      - No contexto do desenvolvimento Java, o padrão comumente adotado para persistência de dados em arquivos é usar a serialização (como a interface Serializable) ou formatos como JSON ou XML.
       O projeto desenvolvido atendeu aos objetivos propostos, aplicando os conceitos estudados e demonstrando a capacidade de criar um sistema cadastral em Java. O uso de herança, polimorfismo e persistência em arquivos binários contribuiu para a solução           eficiente e organizada. O controle de exceções garantiu a robustez do sistema.
       
 ## Repositório no GIT
