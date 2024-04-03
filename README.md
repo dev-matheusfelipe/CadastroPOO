@@ -446,11 +446,11 @@ Os resultados obtidos ao executar os códigos foram os seguintes:
 
 ## Análise e Conclusão
   - **Vantagens e Desvantagens do Uso de Herança**
-     - **Vantagens:
+     - Vantagens:
         - Reutilização de Código: A herança permite que uma classe herde atributos e métodos de outra classe, evitando duplicação de implementações semelhantes.
         - Polimorfismo: Classes derivadas podem ser tratadas como objetos da classe base, facilitando a criação de código flexível e genérico.
         - Organização Hierárquica: A herança ajuda a organizar classes em uma hierarquia, refletindo relações do mundo real.
-    - **Desvantagens:
+    - Desvantagens:
         - Acoplamento Forte: Mudanças na classe base afetam todas as classes derivadas, criando um acoplamento forte.
         - Herança Múltipla Complexa: Em linguagens que suportam herança múltipla, conflitos podem surgir quando uma classe herda de várias classes.
         - Quebra de Encapsulamento: Herdar membros privados pode expor detalhes internos da classe base.
