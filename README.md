@@ -447,13 +447,13 @@ Os resultados obtidos ao executar os códigos foram os seguintes:
 ## Análise e Conclusão
   - **Vantagens e Desvantagens do Uso de Herança**
      - **Vantagens:
-        - **Reutilização de Código: A herança permite que uma classe herde atributos e métodos de outra classe, evitando duplicação de implementações semelhantes.
-        - **Polimorfismo: Classes derivadas podem ser tratadas como objetos da classe base, facilitando a criação de código flexível e genérico.
-        - **Organização Hierárquica: A herança ajuda a organizar classes em uma hierarquia, refletindo relações do mundo real.
+        - Reutilização de Código: A herança permite que uma classe herde atributos e métodos de outra classe, evitando duplicação de implementações semelhantes.
+        - Polimorfismo: Classes derivadas podem ser tratadas como objetos da classe base, facilitando a criação de código flexível e genérico.
+        - Organização Hierárquica: A herança ajuda a organizar classes em uma hierarquia, refletindo relações do mundo real.
     - **Desvantagens:
-        - **Acoplamento Forte: Mudanças na classe base afetam todas as classes derivadas, criando um acoplamento forte.
-        - **Herança Múltipla Complexa: Em linguagens que suportam herança múltipla, conflitos podem surgir quando uma classe herda de várias classes.
-        - **Quebra de Encapsulamento: Herdar membros privados pode expor detalhes internos da classe base.
+        - Acoplamento Forte: Mudanças na classe base afetam todas as classes derivadas, criando um acoplamento forte.
+        - Herança Múltipla Complexa: Em linguagens que suportam herança múltipla, conflitos podem surgir quando uma classe herda de várias classes.
+        - Quebra de Encapsulamento: Herdar membros privados pode expor detalhes internos da classe base.
   - **Necessidade da Interface Serializable em Persistência em Arquivos Binários**
       - A interface Serializable é essencial para permitir que objetos sejam convertidos em bytes e salvos em arquivos binários. Isso é fundamental para a persistência de dados.
   - **Uso do Paradigma Funcional pela API Stream no Java**
