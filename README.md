@@ -520,33 +520,33 @@ A seguir, apresentamos os códigos desenvolvidos durante a prática:
 Os resultados obtidos ao executar os códigos foram os seguintes:
 
 - Resultado
-  ```
-    run:
-    Dados de Pessoa Fisica armazenados.
-    Dados de Pessoa Fisica Recuperados:
-    Id: 1
-    Nome: Joao
-    CPF: 123.456.789-01
-    Idade: 30
-    Id: 2
-    Nome: Maria
-    CPF: 987.654.321-09
-    Idade: 25
-    
-    Dados de Pessoa Juridica armazenados.
-    Dados de Pessoa Juridica Recuperados:
-    Id: 1
-    Nome: XPTO Sales
-    CNPJ: 12345678901234
-    Id: 2
-    Nome: XPTO Solutions
-    CNPJ: 98765432109876
-    BUILD SUCCESSFUL (total time: 0 seconds)
-  ```
+```
+run:
+Dados de Pessoa Fisica armazenados.
+Dados de Pessoa Fisica Recuperados:
+Id: 1
+Nome: Joao
+CPF: 123.456.789-01
+Idade: 30
+Id: 2
+Nome: Maria
+CPF: 987.654.321-09
+Idade: 25
+
+Dados de Pessoa Juridica armazenados.
+Dados de Pessoa Juridica Recuperados:
+Id: 1
+Nome: XPTO Sales
+CNPJ: 12345678901234
+Id: 2
+Nome: XPTO Solutions
+CNPJ: 98765432109876
+BUILD SUCCESSFUL (total time: 0 seconds)
+```
 
 ## Título da Prática
 Missão Prática | Nível 1 | Mundo 3
-Parte 2
+- Parte 2
 
 Alterações como solicitado no trabalho da parte 2.
 - Class CadastroPOO 
@@ -971,7 +971,7 @@ public class CadastroPOO {
     }
 }
 ```
-## Análise e Conclusão
+## Análise
   - **Vantagens e Desvantagens do Uso de Herança**
      - Vantagens:
         - Reutilização de Código: A herança permite que uma classe herde atributos e métodos de outra classe, evitando duplicação de implementações semelhantes.
@@ -988,8 +988,44 @@ public class CadastroPOO {
   - **Padrão de Desenvolvimento na Persistência de Dados em Arquivos no Java**
       - No contexto do desenvolvimento Java, o padrão comumente adotado para persistência de dados em arquivos é usar a serialização (como a interface Serializable) ou formatos como JSON ou XML.
       O projeto desenvolvido atendeu aos objetivos propostos, aplicando os conceitos estudados e demonstrando a capacidade de criar um sistema cadastral em Java. O uso de herança, polimorfismo e persistência em arquivos binários contribuiu para a solução           eficiente e organizada. O controle de exceções garantiu a robustez do sistema.
-      
+
+## Relatório Final: Sistema de Cadastro de Pessoas
+- Objetivo do Projeto:
+    O objetivo deste projeto é desenvolver um sistema de cadastro de pessoas que possa armazenar informações tanto de pessoas físicas quanto jurídicas. O sistema oferece funcionalidades para inclusão, alteração, exclusão, busca e exibição de todas as            pessoas cadastradas, além de permitir a persistência dos dados em arquivos para futuras consultas.
+
+## Resumo das Opções do Sistema:
+
+- **Incluir Pessoa:**
+  - Permite ao usuário cadastrar uma nova pessoa, podendo ser física ou jurídica.
+  - Solicita os dados necessários para o cadastro, como nome, CPF (para pessoas físicas) ou CNPJ (para pessoas jurídicas) e idade (para pessoas físicas).
+  - Após o cadastro, oferece a opção de cadastrar outra pessoa ou retornar ao menu principal.
+- **Alterar Pessoa:**
+    -  Permite ao usuário alterar os dados de uma pessoa já cadastrada.
+    -  Solicita o ID da pessoa que se deseja alterar e, em seguida, permite a atualização dos dados conforme necessário.
+- **Excluir Pessoa:**
+    - Permite ao usuário excluir uma pessoa cadastrada com base no seu ID.
+    - Solicita o ID da pessoa a ser excluída e realiza a exclusão do registro correspondente.       
+- **Buscar Pelo ID:**
+    - Permite ao usuário buscar e exibir os dados de uma pessoa específica com base no seu ID.
+    - Solicita o ID da pessoa desejada e exibe todas as informações associadas a ela.
+- **Exibir Todos:**
+    - Oferece três opções:
+        - Exibir todas as pessoas físicas cadastradas.
+        - Exibir todas as pessoas jurídicas cadastradas.
+        - Exibir todas as pessoas, tanto físicas quanto jurídicas, de forma separada para melhor visualização.
+    - Exibe os dados de todas as pessoas cadastradas de acordo com a opção escolhida.
+ 
+- **Persistir Dados:**
+    -  Permite ao usuário salvar os dados cadastrados em um arquivo para futuras consultas.
+    -  Os dados são armazenados de forma que possam ser recuperados posteriormente mesmo após o encerramento do programa.
+ 
+- **Recuperar Dados:**
+    - Permite ao usuário recuperar os dados previamente salvos em um arquivo.
+    - Ao iniciar o programa, verifica a existência dos arquivos de dados e, se encontrados, os recupera para uso no sistema.
+
+- **Finalizar Programa:**
+    -  Encerra a execução do programa.
+
 ## Repositório no GIT
 O projeto está armazenado no seguinte repositório no GitHub: https://github.com/dev-matheusfelipe/CadastroPOO
-
 Se precisar de mais informações ou tiver outras dúvidas, estou à disposição! 😊
